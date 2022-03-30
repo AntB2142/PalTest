@@ -1,0 +1,12 @@
+.form__input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+    color: rgba(144, 144, 144, 1);
+    margin: 0;
+    width: 360px;
+}

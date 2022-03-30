@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('./Gilroy-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src:  url('Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('./Montserrat-Medium.woff') format('woff');
+}

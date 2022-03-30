@@ -1,0 +1,22 @@
+.contacts__title-name {
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 48px;
+}
+
+.contacts__title-name::before {
+    display: block;
+    width: 40px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #222222;
+    top: 50%;
+    left: -80px;
+}
+
+.contacts__title-name_white {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px #222222;
+}

@@ -1,0 +1,24 @@
+.form__button {
+    position: relative;
+    margin-top: 31px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #222222;
+    text-align: center;
+    border: 1px solid rgba(34, 34, 34, 0.3);
+    width: 260px;
+    height: 40px;
+    display: block;
+    cursor: url('../../../img/Cursor.png'), pointer;
+}
+
+.form__button::before {
+    display: block;
+    width: 21px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #4e4e4e;
+    top: 50%;
+    left: -11px;
+}

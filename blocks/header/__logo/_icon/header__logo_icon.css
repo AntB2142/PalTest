@@ -1,0 +1,9 @@
+.header__logo_icon {
+    cursor: url('../../../img/Cursor.png'), pointer;
+    width: 30px;
+    fill: black;
+}
+
+.header__logo_icon:hover {
+    fill: #C6876D;
+}

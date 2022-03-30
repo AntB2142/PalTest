@@ -1,0 +1,9 @@
+.form__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 12px;
+    padding-top: 28px;
+    color: rgba(144, 144, 144, 1);
+    margin: 0;
+}

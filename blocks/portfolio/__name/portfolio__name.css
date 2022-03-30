@@ -1,0 +1,8 @@
+.portfolio__name {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+}

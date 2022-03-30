@@ -1,0 +1,67 @@
+.services__link {
+    cursor: url('../../../img/Cursor.png'), pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 85px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.services__link:nth-child(4) {
+    border-right: 0px;
+}
+
+.services__tab {
+    height: 683px;
+    width: 359px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity .3s ease;
+    z-index: -1;
+}
+
+.services__tab_red {
+    background-color: #EB5757;
+}
+
+.services__tab_green {
+    background-color: #219653;
+}
+
+.services__tab_blue {
+    background-color: #2F80ED;
+}
+
+.services__tab_purple {
+    background-color: #9B51E0;
+}
+
+.services__tab_title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.services__tab_subtitle {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.services__tab_svg {
+    align-self: center;
+}

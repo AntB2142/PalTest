@@ -1,0 +1,7 @@
+.services__subtitle {
+    color: #343434;
+}
+
+.services__subtitle:not(.default) {
+    display: none;
+}

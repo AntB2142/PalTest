@@ -1,0 +1,33 @@
+.header__icon {
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url('../../../img/Cursor.png'), pointer;
+}
+
+.header__icon_right {
+    border-right: 1px solid #EBEBEB;
+}
+
+.header__icon_left {
+    border-left: 1px solid #EBEBEB;
+}
+
+.header__icon_panel {
+    display: none;
+}
+
+.header__icon:hover .header__icon_panel {
+    display: block;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 170px);
+    left: 85px;
+    height: 84px;
+    background: #ffffff;
+    z-index: 1;
+    margin: 0 auto;
+}

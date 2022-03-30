@@ -1,0 +1,9 @@
+.contacts__social-link {
+    background-image: url(../../../img/social.svg);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    cursor: url('../../../img/Cursor.png'), pointer;
+}

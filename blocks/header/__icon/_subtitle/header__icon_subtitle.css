@@ -1,0 +1,11 @@
+.header__icon_subtitle {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    padding: 0 20px;
+}
+
+.header__icon_subtitle:first-child {
+    border-right: 1px solid #EBEBEB;
+}

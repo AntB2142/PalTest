@@ -1,0 +1,11 @@
+.form__message-file {
+    background-image: url(../../../img/file.svg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    min-width: 18px;
+    height: 18px;
+    padding: 0;
+    padding-bottom: 5px;
+    cursor: url('../../../img/Cursor.png'), pointer;
+    border: none;
+}

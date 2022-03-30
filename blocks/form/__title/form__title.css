@@ -1,0 +1,12 @@
+.form__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 12px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.form__title :nth-child(1) {
+    padding-top: 25px;
+}

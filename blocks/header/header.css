@@ -1,0 +1,43 @@
+.header {
+    margin-bottom: 90px;
+    background: bottom url(../../img/service.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header.white .header__item {
+    color: #ffffff;
+}
+
+.header.white .header__icon_right {
+    border-right: 1px solid #ffffff;
+}
+
+.header.white .header__icon_left {
+    border-left: 1px solid #ffffff;
+}
+
+.header.white .header__item:hover::after {
+    color: #ffffff;
+}
+
+.header.white .header__icon_location {
+    fill: #ffffff;
+}
+
+.header.white .header__icon_phone {
+    fill: #ffffff;
+}
+
+.header.white .header__logo_icon {
+    fill: #ffffff;
+}
+
+.header.white .services__button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.header.white .services__button::before {
+    border-bottom: 1px solid #ffffff;
+}

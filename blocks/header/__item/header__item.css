@@ -1,0 +1,22 @@
+.header__item {
+    cursor: url('../../../img/Cursor.png'), pointer;
+    color: #222222B2;
+    position: relative;
+    padding: 38px 50px;
+    text-decoration: none;
+}
+
+.header__item:hover {
+    color: #222222;
+}
+
+.header__item:hover::after {
+    content:"";
+    position: absolute;
+    height: 2px;
+    background-color: #222222;
+    max-width: 53px;
+    left: 34%;
+    bottom: 5%;
+    width: 100%;
+}
